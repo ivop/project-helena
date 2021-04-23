@@ -20,7 +20,7 @@ U 1 1 607B1A17
 P 10200 2000
 F 0 "J1" H 10280 1992 50  0000 L CNN
 F 1 "Conn_01x24" H 10280 1901 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical" H 10200 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 10200 2000 50  0001 C CNN
 F 3 "~" H 10200 2000 50  0001 C CNN
 	1    10200 2000
 	1    0    0    -1  

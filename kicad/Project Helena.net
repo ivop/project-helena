@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/ivo/kicad/Project Helena/Project Helena.sch")
-    (date "Thu 22 Apr 2021 07:55:28 PM CEST")
+    (date "Fri 23 Apr 2021 03:03:26 AM CEST")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Conn_01x24)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x24) (description "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
