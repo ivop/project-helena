@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 41)
+    (drawings 42)
     (tracks 437)
     (zones 0)
     (modules 68)
@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -3074,6 +3074,7 @@
     )
   )
 
+  (gr_poly (pts (xy 272 162) (xy 292 162) (xy 292 170) (xy 272 170)) (layer F.SilkS) (width 0.15))
   (dimension 346 (width 0.3) (layer Cmts.User)
     (gr_text "346.000 mm" (at 203 197.1) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -3086,7 +3087,7 @@
     (arrow2a (pts (xy 30 195) (xy 31.126504 195.586421)))
     (arrow2b (pts (xy 30 195) (xy 31.126504 194.413579)))
   )
-  (gr_text "REV A" (at 281.94 162.56) (layer F.SilkS)
+  (gr_text "REV A" (at 282 158) (layer F.SilkS)
     (effects (font (size 3 3) (thickness 0.6)))
   )
   (gr_text "April 2021 by Ivo van Poorten" (at 57.15 165.1) (layer F.SilkS)
